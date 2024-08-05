@@ -20,6 +20,9 @@ catch {
     return
 }
 
+if(-not $env:WT_SESSION){
+    Throw 'This module is only supported in Windows Terminal'
+}
 
 foreach($ProviderFile in (Get-Childitem -Path "$PSSCriptroot\Private\")){
     if($ProviderFile.Extension -eq '.ps1'){
