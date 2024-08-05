@@ -4,7 +4,7 @@ This module registers a ScriptFeedbackprovider which plays an exploding animatio
 
 ## Warning
 
-This module is still in the prove of concept (PoC) phase. Be aware as this module will make changes to your Windows Terminal Settings.Json file!
+This module is still in the proof of concept (PoC) phase. Be aware as this module will make changes to your Windows Terminal Settings.Json file!
 
 ## Requirements
 
