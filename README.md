@@ -1,5 +1,6 @@
 # PSTerminalBoom
-This module registers a ScriptFeedbackprovider which plays an exploding animation in the Windows Terminal when ever an error ocours
+
+This module registers a ScriptFeedbackprovider which plays an exploding animation in the Windows Terminal when ever an error occurs
 
 ## Warning
 
@@ -14,4 +15,11 @@ This module is still in the prove of concept (PoC) phase. Be aware as this modul
 
 ## Demo
 
-![](https://github.com/HCRitter/PSTerminalBoom/Demo.gif)
+![Animation](https://github.com/HCRitter/PSTerminalBoom/blob/main/Demo.gif)
+
+## Whats next
+
+- Check for preview release of Windows Terminal
+- Avoid to write Settings.json.bak in the %APPdata% folder
+- Your idea could be here, raise an Issue :)
+  
